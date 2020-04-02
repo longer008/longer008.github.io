@@ -11330,6 +11330,20 @@ a.navbar-item.is-active,
 .content .gt-container .gt-comment-admin .gt-comment-content {
   border: 0.01em solid #deeafb;
 }
+.aplayer-narrow {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.aplayer-narrow:hover {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.aplayer {
+  transition: all 0.5s ease-out;
+}
+.aplayer .aplayer-miniswitcher {
+  background: #fff !important;
+}
 .content .gt-container .gt-comment-header {
   font-size: 0.875em;
   position: relative;
@@ -11397,6 +11411,9 @@ hr {
 .night {
   color: #c0c0c0 !important;
   background-color: #000;
+}
+.night .aplayer .aplayer-miniswitcher {
+  background: #c0c0c0 !important;
 }
 .night .navbar-highlight {
   background-color: #151313 !important;
@@ -11698,4 +11715,9 @@ hr {
 }
 .night .friend-card-item {
   color: unset;
+}
+.night .g-ads-x,
+.night .g-ads-y,
+.night .google-auto-placed {
+  filter: brightness(0.6) !important;
 }
