@@ -18,4 +18,9 @@ function createtime() {
 }
 
 var now = new Date;
-setInterval("createtime()", 250);
+try {
+    setInterval(createtime(), 250);
+} catch (error) {
+    console.log("")
+
+// setInterval("createtime()", 250);
