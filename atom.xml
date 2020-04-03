@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Walter</title>
+  <title>终极幻想家</title>
   
-  <subtitle>尚未执佩剑，转眼即江湖</subtitle>
+  <subtitle>非淡泊无以明志，非宁静无以致远</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://longer008.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://longer008.github.io/</id>
   
   <author>
-    <name>Walter</name>
+    <name>longer008</name>
     
   </author>
   
